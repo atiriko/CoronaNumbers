@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBCB6C862425778600D96F20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCB6C852425778600D96F20 /* AppDelegate.swift */; };
+		FBCB6C882425778600D96F20 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCB6C872425778600D96F20 /* SceneDelegate.swift */; };
+		FBCB6C8A2425778600D96F20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCB6C892425778600D96F20 /* ViewController.swift */; };
+		FBCB6C8D2425778600D96F20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBCB6C8B2425778600D96F20 /* Main.storyboard */; };
+		FBCB6C8F2425778800D96F20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBCB6C8E2425778800D96F20 /* Assets.xcassets */; };
+		FBCB6C922425778800D96F20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBCB6C902425778800D96F20 /* LaunchScreen.storyboard */; };
+		FBCB6C9D2425778800D96F20 /* Corona_NumbersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCB6C9C2425778800D96F20 /* Corona_NumbersTests.swift */; };
+		FBCB6CA82425778800D96F20 /* Corona_NumbersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCB6CA72425778800D96F20 /* Corona_NumbersUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBCB6C992425778800D96F20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBCB6C7A2425778600D96F20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBCB6C812425778600D96F20;
+			remoteInfo = "Corona Numbers";
+		};
+		FBCB6CA42425778800D96F20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBCB6C7A2425778600D96F20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBCB6C812425778600D96F20;
+			remoteInfo = "Corona Numbers";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FBCB6C822425778600D96F20 /* Corona Numbers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Corona Numbers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBCB6C852425778600D96F20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FBCB6C872425778600D96F20 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FBCB6C892425778600D96F20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FBCB6C8C2425778600D96F20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBCB6C8E2425778800D96F20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBCB6C912425778800D96F20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBCB6C932425778800D96F20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBCB6C982425778800D96F20 /* Corona NumbersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Corona NumbersTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBCB6C9C2425778800D96F20 /* Corona_NumbersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Corona_NumbersTests.swift; sourceTree = "<group>"; };
+		FBCB6C9E2425778800D96F20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBCB6CA32425778800D96F20 /* Corona NumbersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Corona NumbersUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBCB6CA72425778800D96F20 /* Corona_NumbersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Corona_NumbersUITests.swift; sourceTree = "<group>"; };
+		FBCB6CA92425778800D96F20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBCB6C7F2425778600D96F20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBCB6C952425778800D96F20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBCB6CA02425778800D96F20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBCB6C792425778600D96F20 = {
+			isa = PBXGroup;
+			children = (
+				FBCB6C842425778600D96F20 /* Corona Numbers */,
+				FBCB6C9B2425778800D96F20 /* Corona NumbersTests */,
+				FBCB6CA62425778800D96F20 /* Corona NumbersUITests */,
+				FBCB6C832425778600D96F20 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBCB6C832425778600D96F20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBCB6C822425778600D96F20 /* Corona Numbers.app */,
+				FBCB6C982425778800D96F20 /* Corona NumbersTests.xctest */,
+				FBCB6CA32425778800D96F20 /* Corona NumbersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBCB6C842425778600D96F20 /* Corona Numbers */ = {
+			isa = PBXGroup;
+			children = (
+				FBCB6C852425778600D96F20 /* AppDelegate.swift */,
+				FBCB6C872425778600D96F20 /* SceneDelegate.swift */,
+				FBCB6C892425778600D96F20 /* ViewController.swift */,
+				FBCB6C8B2425778600D96F20 /* Main.storyboard */,
+				FBCB6C8E2425778800D96F20 /* Assets.xcassets */,
+				FBCB6C902425778800D96F20 /* LaunchScreen.storyboard */,
+				FBCB6C932425778800D96F20 /* Info.plist */,
+			);
+			path = "Corona Numbers";
+			sourceTree = "<group>";
+		};
+		FBCB6C9B2425778800D96F20 /* Corona NumbersTests */ = {
+			isa = PBXGroup;
+			children = (
+				FBCB6C9C2425778800D96F20 /* Corona_NumbersTests.swift */,
+				FBCB6C9E2425778800D96F20 /* Info.plist */,
+			);
+			path = "Corona NumbersTests";
+			sourceTree = "<group>";
+		};
+		FBCB6CA62425778800D96F20 /* Corona NumbersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FBCB6CA72425778800D96F20 /* Corona_NumbersUITests.swift */,
+				FBCB6CA92425778800D96F20 /* Info.plist */,
+			);
+			path = "Corona NumbersUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBCB6C812425778600D96F20 /* Corona Numbers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBCB6CAC2425778800D96F20 /* Build configuration list for PBXNativeTarget "Corona Numbers" */;
+			buildPhases = (
+				FBCB6C7E2425778600D96F20 /* Sources */,
+				FBCB6C7F2425778600D96F20 /* Frameworks */,
+				FBCB6C802425778600D96F20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Corona Numbers";
+			productName = "Corona Numbers";
+			productReference = FBCB6C822425778600D96F20 /* Corona Numbers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBCB6C972425778800D96F20 /* Corona NumbersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBCB6CAF2425778800D96F20 /* Build configuration list for PBXNativeTarget "Corona NumbersTests" */;
+			buildPhases = (
+				FBCB6C942425778800D96F20 /* Sources */,
+				FBCB6C952425778800D96F20 /* Frameworks */,
+				FBCB6C962425778800D96F20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBCB6C9A2425778800D96F20 /* PBXTargetDependency */,
+			);
+			name = "Corona NumbersTests";
+			productName = "Corona NumbersTests";
+			productReference = FBCB6C982425778800D96F20 /* Corona NumbersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FBCB6CA22425778800D96F20 /* Corona NumbersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBCB6CB22425778800D96F20 /* Build configuration list for PBXNativeTarget "Corona NumbersUITests" */;
+			buildPhases = (
+				FBCB6C9F2425778800D96F20 /* Sources */,
+				FBCB6CA02425778800D96F20 /* Frameworks */,
+				FBCB6CA12425778800D96F20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBCB6CA52425778800D96F20 /* PBXTargetDependency */,
+			);
+			name = "Corona NumbersUITests";
+			productName = "Corona NumbersUITests";
+			productReference = FBCB6CA32425778800D96F20 /* Corona NumbersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBCB6C7A2425778600D96F20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = AtahanSahlan;
+				TargetAttributes = {
+					FBCB6C812425778600D96F20 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					FBCB6C972425778800D96F20 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = FBCB6C812425778600D96F20;
+					};
+					FBCB6CA22425778800D96F20 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = FBCB6C812425778600D96F20;
+					};
+				};
+			};
+			buildConfigurationList = FBCB6C7D2425778600D96F20 /* Build configuration list for PBXProject "Corona Numbers" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBCB6C792425778600D96F20;
+			productRefGroup = FBCB6C832425778600D96F20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBCB6C812425778600D96F20 /* Corona Numbers */,
+				FBCB6C972425778800D96F20 /* Corona NumbersTests */,
+				FBCB6CA22425778800D96F20 /* Corona NumbersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBCB6C802425778600D96F20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBCB6C922425778800D96F20 /* LaunchScreen.storyboard in Resources */,
+				FBCB6C8F2425778800D96F20 /* Assets.xcassets in Resources */,
+				FBCB6C8D2425778600D96F20 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBCB6C962425778800D96F20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBCB6CA12425778800D96F20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBCB6C7E2425778600D96F20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBCB6C8A2425778600D96F20 /* ViewController.swift in Sources */,
+				FBCB6C862425778600D96F20 /* AppDelegate.swift in Sources */,
+				FBCB6C882425778600D96F20 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBCB6C942425778800D96F20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBCB6C9D2425778800D96F20 /* Corona_NumbersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBCB6C9F2425778800D96F20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBCB6CA82425778800D96F20 /* Corona_NumbersUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBCB6C9A2425778800D96F20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBCB6C812425778600D96F20 /* Corona Numbers */;
+			targetProxy = FBCB6C992425778800D96F20 /* PBXContainerItemProxy */;
+		};
+		FBCB6CA52425778800D96F20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBCB6C812425778600D96F20 /* Corona Numbers */;
+			targetProxy = FBCB6CA42425778800D96F20 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FBCB6C8B2425778600D96F20 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBCB6C8C2425778600D96F20 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FBCB6C902425778800D96F20 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBCB6C912425778800D96F20 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBCB6CAA2425778800D96F20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FBCB6CAB2425778800D96F20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBCB6CAD2425778800D96F20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Corona Numbers/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ios.Corona-Numbers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBCB6CAE2425778800D96F20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Corona Numbers/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ios.Corona-Numbers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FBCB6CB02425778800D96F20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Corona NumbersTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ios.Corona-NumbersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Corona Numbers.app/Corona Numbers";
+			};
+			name = Debug;
+		};
+		FBCB6CB12425778800D96F20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Corona NumbersTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ios.Corona-NumbersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Corona Numbers.app/Corona Numbers";
+			};
+			name = Release;
+		};
+		FBCB6CB32425778800D96F20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Corona NumbersUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ios.Corona-NumbersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Corona Numbers";
+			};
+			name = Debug;
+		};
+		FBCB6CB42425778800D96F20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Corona NumbersUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ios.Corona-NumbersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Corona Numbers";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBCB6C7D2425778600D96F20 /* Build configuration list for PBXProject "Corona Numbers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBCB6CAA2425778800D96F20 /* Debug */,
+				FBCB6CAB2425778800D96F20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBCB6CAC2425778800D96F20 /* Build configuration list for PBXNativeTarget "Corona Numbers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBCB6CAD2425778800D96F20 /* Debug */,
+				FBCB6CAE2425778800D96F20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBCB6CAF2425778800D96F20 /* Build configuration list for PBXNativeTarget "Corona NumbersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBCB6CB02425778800D96F20 /* Debug */,
+				FBCB6CB12425778800D96F20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBCB6CB22425778800D96F20 /* Build configuration list for PBXNativeTarget "Corona NumbersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBCB6CB32425778800D96F20 /* Debug */,
+				FBCB6CB42425778800D96F20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBCB6C7A2425778600D96F20 /* Project object */;
+}
