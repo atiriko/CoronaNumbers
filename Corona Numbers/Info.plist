@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>UIUserInterfaceStyle</key>
+	<string>Dark</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
@@ -18,6 +20,12 @@
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>GADApplicationIdentifier</key>
+	<string>ca-app-pub-2092620769473230~5957093325</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>twitter</string>
+	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UIApplicationSceneManifest</key>
@@ -50,8 +58,6 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
